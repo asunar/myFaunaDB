@@ -2,8 +2,7 @@ import test from 'tape'
 import dotenv from 'dotenv';
 dotenv.config() //read env variables from the .env file
 
-import { deleteDatabase, getClient } from '../faunaDbGateway.js'
-import { createDatabase } from '../faunaDbGateway.js'
+import { createDatabase, deleteDatabase, getClient } from '../faunaDbGateway.js'
 
 
 
